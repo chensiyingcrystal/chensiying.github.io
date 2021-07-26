@@ -1,0 +1,9 @@
+- title: Email
+  url: mailto://chensiyingcrystal@gmail.com
+  icon: fas fa-envelope
+- title: Twitter
+  url: https://cn.linkedin.com/in/%E6%80%9D%E8%8E%B9-%E9%99%88-2a6134121/
+  icon: fab fa-linkedin
+- title: GitHub
+  url: https://github.com/chensiyingcrystal
+  icon: fab fa-github
