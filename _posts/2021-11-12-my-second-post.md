@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My first post
+title: My second post
 tags: life
 date: 2021-11-12 11:46 +0800
 ---
