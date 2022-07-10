@@ -1,18 +1,12 @@
 /*
     File: index.css
-    Jason Downing
-    Contact: jason@downing.io
+    Siying Chen
     MIT Licensed - see http://opensource.org/licenses/MIT for details.
-    Anyone may freely use this code. Just don't sue me if it breaks stuff.
-    Created: September 3rd, 2015.
-    Last Updated: Feb 18th, 2021.
+    Last Updated: July 10th, 2022.
 
     This file contains CSS classes / IDs used to override the Creative Bootstrap Theme
 */
 
-/* For the new header, all text shall be black around the intro section 
-	 Will hopefully be easier to read.
-*/
 .text-black {
 	color: black;
 }
@@ -63,12 +57,11 @@
                 header text. */
 .text-white-link {
   color: white;
-  border-bottom: 1px solid currentColor;
 }
 
 /* Link color when it is unvisited */
 a.text-blue:link  {
-  color: blue;
+  color: #ff69b4;
   border-bottom: 1px solid currentColor;
 }
 a.text-white-link:link  {
@@ -78,12 +71,11 @@ a.text-white-link:link  {
 
 /* Link color after being clicked on and visited */
 a.text-blue:visited {
-  color: blue;
+  color:#ff69b4;
   border-bottom: 1px solid currentColor;
 }
 a.text-white-link:visited {
   color: white;
-  border-bottom: 1px solid currentColor;
 }
 
 /* Link color while being hovered on */
