@@ -36,20 +36,10 @@
 
 /*  For the GitHub Section link
     These styles make the GitHub Section header appear white all the time,
-    unless hovered on, in which case they turn blue. I like this style better.
-
-    I also decided to use borders instead of underlines since the J in Jason gets cut
-    off by an underline, but not by a border (which looks exactly like an underline only
-    I can control it better). This resulted in a MUCH nicer looking underline!
-    I used this link from Stackoverflow for this:
-    https://stackoverflow.com/questions/9586596/control-underline-position-on-text-decoration-underline
-
-    These links were also helpful:
-    https://www.w3schools.com/css/css_link.asp
-    https://www.w3schools.com/css/tryit.asp?filename=trycss_link2
+    unless hovered on, in which case they turn pink.
 */
 .text-blue {
-  color: blue;
+  color: #EBE0D0;
   border-bottom: 1px solid currentColor;
 }
   /* 6/15/2018: Renamed because Bootstrap's CSS ALSO has a text-white class,
@@ -80,19 +70,19 @@ a.text-white-link:visited {
 
 /* Link color while being hovered on */
 a.text-blue:hover {
-  color: blue;
+  color: #EBE0D0;
   border-bottom: 1px solid currentColor;
   text-decoration: none;
 }
 a.text-white-link:hover {
-  color: blue;
+  color: #EBE0D0;
   border-bottom: 1px solid currentColor;
   text-decoration: none;
 }
 
 /* Link color the moment it is clicked */
 a.text-blue:active {
-  color: blue;
+  color: #EBE0D0;
   border-bottom: 1px solid currentColor;
 }
 a.text-white-link:active {
